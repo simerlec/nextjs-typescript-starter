@@ -1,4 +1,4 @@
-# Opinionated React Typescript Starter
+# Opinionated Next.js Typescript Starter
 
 ## Setup
 
@@ -10,4 +10,4 @@ ESlint is used to keep us from making mistakes.
 
 ## Development server
 
-Run `npm run dev` for a dev server. Navigate to `http://localhost:1234/`. The app will automatically reload if you change any of the source files. Powered by [Parcel](https://github.com/parcel-bundler/parcel) ❤️
+Run `npm run dev` for a dev server. Navigate to `http://localhost:3000`. The app will automatically reload if you change any of the source files. Powered by [Vercel](https://vercel.com) ❤️
