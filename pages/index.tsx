@@ -10,6 +10,7 @@ const Home = () => {
       </Head>
 
       <main>
+        <img className="react-image" src="/img/react.png"></img>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -56,7 +57,7 @@ const Home = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img src="/img/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
 
@@ -70,7 +71,7 @@ const Home = () => {
           align-items: center;
         }
         main {
-          padding: 5rem 0;
+          padding: 4rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -114,6 +115,15 @@ const Home = () => {
         .title,
         .description {
           text-align: center;
+        }
+        .react-image {
+          width: 100px;
+          animation: rotate 10s infinite linear;
+        }
+        @keyframes rotate {
+          100% {
+            transform: rotate(360deg);
+          }
         }
         .description {
           line-height: 1.5;
