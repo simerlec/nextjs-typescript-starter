@@ -64,6 +64,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": ["**/*.tsx", "images.d.ts", "next-env.d.ts"],
+  "include": ["next-env.d.ts", "**/*.tsx", "images.d.ts"],
   "exclude": [".git", "node_modules"]
 }
