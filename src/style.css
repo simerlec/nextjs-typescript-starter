@@ -1,0 +1,54 @@
+@import './colors.css';
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  animation: rotate 10s infinite linear;
+}
+
+.buttons {
+  display: flex;
+}
+
+.todolist {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--todo_list_border);
+}
+
+.todolist__input {
+  display: flex;
+}
+
+.todolist__item:hover {
+  cursor: pointer;
+  color: var(--todo_item_hover);
+  text-decoration: line-through;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ok {
+  color: var(--ok);
+}
+
+.error {
+  color: var(--error);
+}
