@@ -10,7 +10,11 @@ const Home = () => {
       </Head>
 
       <main>
-        <img className="react-image" src="/img/react.png"></img>
+        <img
+          className="react-image"
+          src="/img/react.png"
+          alt="react logo"
+        ></img>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
