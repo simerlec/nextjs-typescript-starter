@@ -103,13 +103,21 @@ const Home = () => {
           text-decoration: none;
         }
         .title a {
-          color: #0070f3;
           text-decoration: none;
-        }
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
+          background-image: linear-gradient(
+            to left,
+            #a335ee,
+            #057af0,
+            #007fac,
+            #00ff00,
+            #ffd000,
+            #ff6900,
+            #ff5353
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          color: transparent;
         }
         .title {
           margin: 0;
